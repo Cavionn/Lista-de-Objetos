@@ -38,11 +38,12 @@
             label4 = new Label();
             btnAdicionar = new Button();
             dgvProdutos = new DataGridView();
-            btnExcluir = new Button();
             id = new DataGridViewTextBoxColumn();
             Nome = new DataGridViewTextBoxColumn();
             Quantidade = new DataGridViewTextBoxColumn();
             Valor = new DataGridViewTextBoxColumn();
+            btnExcluir = new Button();
+            btnUpdate = new Button();
             ((System.ComponentModel.ISupportInitialize)dgvProdutos).BeginInit();
             SuspendLayout();
             // 
@@ -131,19 +132,8 @@
             dgvProdutos.Name = "dgvProdutos";
             dgvProdutos.ReadOnly = true;
             dgvProdutos.RowTemplate.Height = 25;
-            dgvProdutos.Size = new Size(462, 175);
+            dgvProdutos.Size = new Size(462, 184);
             dgvProdutos.TabIndex = 9;
-            // 
-            // btnExcluir
-            // 
-            btnExcluir.Cursor = Cursors.Hand;
-            btnExcluir.Location = new Point(108, 120);
-            btnExcluir.Name = "btnExcluir";
-            btnExcluir.Size = new Size(44, 31);
-            btnExcluir.TabIndex = 10;
-            btnExcluir.Text = "Del";
-            btnExcluir.UseVisualStyleBackColor = true;
-            btnExcluir.Click += btnExcluir_Click;
             // 
             // id
             // 
@@ -173,12 +163,35 @@
             Valor.Name = "Valor";
             Valor.ReadOnly = true;
             // 
+            // btnExcluir
+            // 
+            btnExcluir.Cursor = Cursors.Hand;
+            btnExcluir.Location = new Point(108, 120);
+            btnExcluir.Name = "btnExcluir";
+            btnExcluir.Size = new Size(44, 31);
+            btnExcluir.TabIndex = 10;
+            btnExcluir.Text = "Del";
+            btnExcluir.UseVisualStyleBackColor = true;
+            btnExcluir.Click += btnExcluir_Click;
+            // 
+            // btnUpdate
+            // 
+            btnUpdate.Cursor = Cursors.Hand;
+            btnUpdate.Location = new Point(58, 157);
+            btnUpdate.Name = "btnUpdate";
+            btnUpdate.Size = new Size(94, 31);
+            btnUpdate.TabIndex = 11;
+            btnUpdate.Text = "Update";
+            btnUpdate.UseVisualStyleBackColor = true;
+            btnUpdate.Click += btnUpdate_Click;
+            // 
             // Form1
             // 
             AcceptButton = btnAdicionar;
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(btnUpdate);
             Controls.Add(btnExcluir);
             Controls.Add(dgvProdutos);
             Controls.Add(btnAdicionar);
@@ -215,5 +228,6 @@
         private DataGridViewTextBoxColumn Nome;
         private DataGridViewTextBoxColumn Quantidade;
         private DataGridViewTextBoxColumn Valor;
+        private Button btnUpdate;
     }
 }

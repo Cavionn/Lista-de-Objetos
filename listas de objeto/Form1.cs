@@ -68,5 +68,31 @@ namespace listas_de_objeto
 
             txtId.Clear();
         }
+
+        private void btnUpdate_Click(object sender, EventArgs e)
+        {
+            Produto produto = new Produto();
+
+            produto.id = Convert.ToInt32(txtId.Text);
+            produto.nome = txtNome.Text;
+            produto.quantidade = Convert.ToInt32(txtQtd.Text);
+            produto.valor = float.Parse(txtValor.Text);
+
+            int idProduto = Convert.ToInt32(txtId.Text);
+            Produto temp = produtos.Find(x => x.id == idProduto);
+
+            if (temp != null)
+            {
+                int idx = produtos.IndexOf(temp);
+
+                if (idx >= 0)
+                {
+                    produtos[idx] = produto;
+                    CarregaProdutos();
+                }
+            }
+
+
+        }
     }
 }
