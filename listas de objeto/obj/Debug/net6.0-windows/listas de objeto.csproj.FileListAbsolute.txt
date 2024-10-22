@@ -1,0 +1,17 @@
+C:\Users\GIORGIOCAVIONTIBURI\source\repos\listas de objeto\listas de objeto\bin\Debug\net6.0-windows\listas de objeto.exe
+C:\Users\GIORGIOCAVIONTIBURI\source\repos\listas de objeto\listas de objeto\bin\Debug\net6.0-windows\listas de objeto.deps.json
+C:\Users\GIORGIOCAVIONTIBURI\source\repos\listas de objeto\listas de objeto\bin\Debug\net6.0-windows\listas de objeto.runtimeconfig.json
+C:\Users\GIORGIOCAVIONTIBURI\source\repos\listas de objeto\listas de objeto\bin\Debug\net6.0-windows\listas de objeto.dll
+C:\Users\GIORGIOCAVIONTIBURI\source\repos\listas de objeto\listas de objeto\bin\Debug\net6.0-windows\listas de objeto.pdb
+C:\Users\GIORGIOCAVIONTIBURI\source\repos\listas de objeto\listas de objeto\obj\Debug\net6.0-windows\listas de objeto.csproj.AssemblyReference.cache
+C:\Users\GIORGIOCAVIONTIBURI\source\repos\listas de objeto\listas de objeto\obj\Debug\net6.0-windows\listas_de_objeto.Form1.resources
+C:\Users\GIORGIOCAVIONTIBURI\source\repos\listas de objeto\listas de objeto\obj\Debug\net6.0-windows\listas de objeto.csproj.GenerateResource.cache
+C:\Users\GIORGIOCAVIONTIBURI\source\repos\listas de objeto\listas de objeto\obj\Debug\net6.0-windows\listas de objeto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GIORGIOCAVIONTIBURI\source\repos\listas de objeto\listas de objeto\obj\Debug\net6.0-windows\listas de objeto.AssemblyInfoInputs.cache
+C:\Users\GIORGIOCAVIONTIBURI\source\repos\listas de objeto\listas de objeto\obj\Debug\net6.0-windows\listas de objeto.AssemblyInfo.cs
+C:\Users\GIORGIOCAVIONTIBURI\source\repos\listas de objeto\listas de objeto\obj\Debug\net6.0-windows\listas de objeto.csproj.CoreCompileInputs.cache
+C:\Users\GIORGIOCAVIONTIBURI\source\repos\listas de objeto\listas de objeto\obj\Debug\net6.0-windows\listas de objeto.dll
+C:\Users\GIORGIOCAVIONTIBURI\source\repos\listas de objeto\listas de objeto\obj\Debug\net6.0-windows\refint\listas de objeto.dll
+C:\Users\GIORGIOCAVIONTIBURI\source\repos\listas de objeto\listas de objeto\obj\Debug\net6.0-windows\listas de objeto.pdb
+C:\Users\GIORGIOCAVIONTIBURI\source\repos\listas de objeto\listas de objeto\obj\Debug\net6.0-windows\listas de objeto.genruntimeconfig.cache
+C:\Users\GIORGIOCAVIONTIBURI\source\repos\listas de objeto\listas de objeto\obj\Debug\net6.0-windows\ref\listas de objeto.dll
