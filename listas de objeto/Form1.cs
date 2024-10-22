@@ -87,6 +87,7 @@ namespace listas_de_objeto
 
                 if (idx >= 0)
                 {
+                    produto.id = idProduto;
                     produtos[idx] = produto;
                     CarregaProdutos();
                 }
