@@ -42,6 +42,8 @@
             Nome = new DataGridViewTextBoxColumn();
             Quantidade = new DataGridViewTextBoxColumn();
             Valor = new DataGridViewTextBoxColumn();
+            btnEditar = new DataGridViewButtonColumn();
+            btnDelete = new DataGridViewButtonColumn();
             btnExcluir = new Button();
             btnUpdate = new Button();
             ((System.ComponentModel.ISupportInitialize)dgvProdutos).BeginInit();
@@ -127,13 +129,16 @@
             dgvProdutos.AllowUserToAddRows = false;
             dgvProdutos.AllowUserToDeleteRows = false;
             dgvProdutos.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvProdutos.Columns.AddRange(new DataGridViewColumn[] { id, Nome, Quantidade, Valor });
-            dgvProdutos.Location = new Point(164, 4);
+            dgvProdutos.Columns.AddRange(new DataGridViewColumn[] { id, Nome, Quantidade, Valor, btnEditar, btnDelete });
+            dgvProdutos.Location = new Point(163, 4);
             dgvProdutos.Name = "dgvProdutos";
             dgvProdutos.ReadOnly = true;
+            dgvProdutos.RowHeadersVisible = false;
             dgvProdutos.RowTemplate.Height = 25;
-            dgvProdutos.Size = new Size(462, 184);
+            dgvProdutos.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            dgvProdutos.Size = new Size(523, 184);
             dgvProdutos.TabIndex = 9;
+            dgvProdutos.CellClick += dgvProdutos_CellClick;
             // 
             // id
             // 
@@ -163,6 +168,24 @@
             Valor.Name = "Valor";
             Valor.ReadOnly = true;
             // 
+            // btnEditar
+            // 
+            btnEditar.HeaderText = "Editar";
+            btnEditar.Name = "btnEditar";
+            btnEditar.ReadOnly = true;
+            btnEditar.Text = "Editar";
+            btnEditar.UseColumnTextForButtonValue = true;
+            btnEditar.Width = 60;
+            // 
+            // btnDelete
+            // 
+            btnDelete.HeaderText = "Excluir";
+            btnDelete.Name = "btnDelete";
+            btnDelete.ReadOnly = true;
+            btnDelete.Text = "Excluir";
+            btnDelete.UseColumnTextForButtonValue = true;
+            btnDelete.Width = 60;
+            // 
             // btnExcluir
             // 
             btnExcluir.Cursor = Cursors.Hand;
@@ -190,7 +213,7 @@
             AcceptButton = btnAdicionar;
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(813, 198);
             Controls.Add(btnUpdate);
             Controls.Add(btnExcluir);
             Controls.Add(dgvProdutos);
@@ -224,10 +247,12 @@
         private Button btnAdicionar;
         private DataGridView dgvProdutos;
         private Button btnExcluir;
+        private Button btnUpdate;
         private DataGridViewTextBoxColumn id;
         private DataGridViewTextBoxColumn Nome;
         private DataGridViewTextBoxColumn Quantidade;
         private DataGridViewTextBoxColumn Valor;
-        private Button btnUpdate;
+        private DataGridViewButtonColumn btnEditar;
+        private DataGridViewButtonColumn btnDelete;
     }
 }

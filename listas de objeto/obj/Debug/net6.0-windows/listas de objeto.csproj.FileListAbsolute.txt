@@ -15,3 +15,20 @@ C:\Users\GIORGIOCAVIONTIBURI\source\repos\listas de objeto\listas de objeto\obj\
 C:\Users\GIORGIOCAVIONTIBURI\source\repos\listas de objeto\listas de objeto\obj\Debug\net6.0-windows\listas de objeto.pdb
 C:\Users\GIORGIOCAVIONTIBURI\source\repos\listas de objeto\listas de objeto\obj\Debug\net6.0-windows\listas de objeto.genruntimeconfig.cache
 C:\Users\GIORGIOCAVIONTIBURI\source\repos\listas de objeto\listas de objeto\obj\Debug\net6.0-windows\ref\listas de objeto.dll
+C:\Git\listas de objeto\bin\Debug\net6.0-windows\listas de objeto.exe
+C:\Git\listas de objeto\bin\Debug\net6.0-windows\listas de objeto.deps.json
+C:\Git\listas de objeto\bin\Debug\net6.0-windows\listas de objeto.runtimeconfig.json
+C:\Git\listas de objeto\bin\Debug\net6.0-windows\listas de objeto.dll
+C:\Git\listas de objeto\bin\Debug\net6.0-windows\listas de objeto.pdb
+C:\Git\listas de objeto\obj\Debug\net6.0-windows\listas de objeto.csproj.AssemblyReference.cache
+C:\Git\listas de objeto\obj\Debug\net6.0-windows\listas_de_objeto.Form1.resources
+C:\Git\listas de objeto\obj\Debug\net6.0-windows\listas de objeto.csproj.GenerateResource.cache
+C:\Git\listas de objeto\obj\Debug\net6.0-windows\listas de objeto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git\listas de objeto\obj\Debug\net6.0-windows\listas de objeto.AssemblyInfoInputs.cache
+C:\Git\listas de objeto\obj\Debug\net6.0-windows\listas de objeto.AssemblyInfo.cs
+C:\Git\listas de objeto\obj\Debug\net6.0-windows\listas de objeto.csproj.CoreCompileInputs.cache
+C:\Git\listas de objeto\obj\Debug\net6.0-windows\listas de objeto.dll
+C:\Git\listas de objeto\obj\Debug\net6.0-windows\refint\listas de objeto.dll
+C:\Git\listas de objeto\obj\Debug\net6.0-windows\listas de objeto.pdb
+C:\Git\listas de objeto\obj\Debug\net6.0-windows\listas de objeto.genruntimeconfig.cache
+C:\Git\listas de objeto\obj\Debug\net6.0-windows\ref\listas de objeto.dll

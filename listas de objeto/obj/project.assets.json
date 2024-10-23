@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\GIORGIOCAVIONTIBURI\\source\\repos\\listas de objeto\\listas de objeto\\listas de objeto.csproj",
+      "projectUniqueName": "C:\\Git\\listas de objeto\\listas de objeto.csproj",
       "projectName": "listas de objeto",
-      "projectPath": "C:\\Users\\GIORGIOCAVIONTIBURI\\source\\repos\\listas de objeto\\listas de objeto\\listas de objeto.csproj",
+      "projectPath": "C:\\Git\\listas de objeto\\listas de objeto.csproj",
       "packagesPath": "C:\\Users\\GIORGIOCAVIONTIBURI\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\GIORGIOCAVIONTIBURI\\source\\repos\\listas de objeto\\listas de objeto\\obj\\",
+      "outputPath": "C:\\Git\\listas de objeto\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

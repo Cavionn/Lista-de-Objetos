@@ -95,5 +95,34 @@ namespace listas_de_objeto
 
 
         }
+
+        private void dgvProdutos_CellClick(object sender, DataGridViewCellEventArgs e) // DataGridViewCellEventArgs --> Evento
+        {
+            if (e.RowIndex >= 0 && e.ColumnIndex >= 0)
+            {
+                int id = Convert.ToInt32(dgvProdutos.Rows[e.RowIndex].Cells["id"].Value);
+                string operation = dgvProdutos.Columns[e.ColumnIndex].Name;
+
+                if(operation == "btnDelete")
+                {
+                    DialogResult result = MessageBox.Show("Confirma a Exclusão?", "Excluir",
+                        MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+                    if (result == DialogResult.Yes) 
+                    { 
+                    int idx = produtos.FindIndex(x => x.id == id);
+                    produtos.RemoveAt(idx);
+
+                    CarregaProdutos();
+                    }
+                }
+
+                else if (operation == "btnEditar")
+                {
+                    //código
+                }
+
+            }
+        }
     }
 }
